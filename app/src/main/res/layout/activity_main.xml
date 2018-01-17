@@ -1,14 +1,6 @@
-# FluorescenceView
-自定义荧光粒子效果控件
----
-
-### 运行效果
-![](GIF.gif)
-
-### 使用方式
-#### xml中引用
-```xml
-<xyz.yutoo.fluorescenceview.FluorescenceView
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.yutoo.fluorescenceview.FluorescenceView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg_conversation"
@@ -23,9 +15,3 @@
         android:textColor="@android:color/white"/>
 
 </xyz.yutoo.fluorescenceview.FluorescenceView>
-```
-
-<font color="red">1. 本控件继承自FrameLayout，因此使用方式和FrameLayout一致</font>
-
-
-##### 暂未提供对外方法，可在Fluorescence控件中修改相关配置，基本都是有注释的
